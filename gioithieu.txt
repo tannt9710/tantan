@@ -1,0 +1,17 @@
+﻿<html>
+<head>
+<title> gioi thieu ban than </title>
+</head>
+<body>
+ <h1  align= "center"> <font color= red size= 50><b> xin chao !!! </b></font>   </h1> <br />
+ <img style="width:300px;" src="https://scontent.fhan5-7.fna.fbcdn.net/v/t1.0-9/18950992_1865352203788326_43453512918865733_n.jpg?_nc_cat=0&_nc_eui2=v1%3AAeHUGVpKKozhrk09H7KJFo--k0FGwAISsXSXK1PvMMdWkTjCOgAjh-K4S-F2yPDQtDCS5TrGH6uPzNp9zMPQZCCqqnX4xGhxIKkkWyEYmQYuCQ&oh=8d7bc54296119660750c7f93e0f23e19&oe=5B55FD2E" Align="left" alt="��y l� t�i" /><br />
+<h2><font size=5> Ho va ten: Nguyen Thi Tan <br />
+Nam sinh: 1997 va hien dang la sinh vien Hoc vien Ngan Hang <br />
+So thich: thich an, ngu, choi <br />
+So truong: nau an ngon ^_^ <br />
+</font>
+</h2>
+<p> Toi la chinh toi. Toi thich nhung gi toi thich. Toi yeu nhung gi toi yeu thich. Toi lam nhung gi toi muon. Doi dien va doi pho voi no. Do la cuoc song cua toi!</p>
+ 
+</body>
+</html>
