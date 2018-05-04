@@ -1,0 +1,321 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>BTVN</title>
+</head>
+<body>
+
+    <center> <font color=red size=20> <B>BÀI TẬP VỀ NHÀ BUỔI 2 </B></font></center>
+    <p> <h1>Bài 1</h1>
+        <table border="1" cellspacing=0>
+                <tr align=center>
+                       <td colspan="2"> <h1><I><B>  Mỹ Tâm </B></I></h1>
+                    </td>
+                </tr>
+        
+                    <td width=400 >
+                          <h3>Phan Thị Mỹ Tâm (sinh ngày 16 tháng 1 năm 1981) là nữ ca sĩ, nhạc sĩ và diễn viên người Việt Nam. Sinh ra tại Đà Nẵng, cô sớm bộc lộ năng khiếu về âm nhạc và liên tiếp giành chiến thắng tại nhiều cuộc thi ca hát lớn nhỏ lúc còn ở độ tuổi thiếu niên. Cô khởi nghiệp ca hát bằng album đầu tay Mãi yêu (2001) và album kế tiếp Đâu chỉ riêng em (2002) không lâu sau khi tốt nghiệp thủ khoa tại trường Nhạc viện Thành phố Hồ Chí Minh. Album phòng thu thứ ba, Yesterday & Now (2003) giúp cô lập kỷ lục về doanh số bán ra tại thị trường trong nước.</h3>  
+                    </td>
+                    <th width=300>
+                        <a href="https://vi.wikipedia.org/wiki/M%E1%BB%B9_T%C3%A2m" target="_blank">
+                            <img src="https://baomoi-photo-1-td.zadn.vn/w700_r1m/17/05/12/4/22248903/1_82942.jpg" width="300px" height="300px" title="Đây là Mỹ Tâm">
+                        </a>
+                        </th>
+                </tr>
+            </tr>
+            </table>
+    </p>
+   <p> <h1>Bài 2</h1>
+    <table border="1" cellspacing="0" >
+            <tr align=center  >
+               <td colspan=6>   <I><b>My tech stock picks </b></I></td>
+            </tr>
+            <tr>
+                <th width=160 align=left>  NAME</th>
+               <th width=70 > SYMBOL</th>
+                <th width=80  >CURRENT</th>
+                <th width=80  >52WK HI</th>
+                <th width=80  >52WK LO</th>
+                <th width=100 >P/E RATIO</th>
+            </tr> 
+            <tr>
+                <td align=left> Microsoft </td>
+                <td  align=center> MSFT </td>
+                <td align=center> 86-3/8</td>
+                <td align=center> 119-15/16</td>
+                <td align=center>75-1/2</td>
+                <td align=center>56.09</td>
+            </tr>
+            <tr>
+                <td>Cisco Systems</td>
+                <td align=center>CSCO </td>
+                <td align=center>72-1/8</td>
+                <td align=center> 82</td>
+                <td align=center>24-13/16</td>
+                <td align=center>400.69</td>
+            </tr>
+            <tr>
+                <td > America Online</td>
+                <td align=center>AOL</td>
+                <td align=center>63</td>
+                <td align=center>95-13/16</td>
+                <td align=center>38-15/32</td>
+                <td align=center>350.00</td>
+            </tr>
+            <tr>
+                <td>Qwest Communications</td>
+                <td align=center> Q</td>
+                <td align=center>44-7/16</td>
+                <td align=center>66</td>
+                <td align=center>25-3/4</td>
+                <td align=center>74.06</td>
+            </tr>
+            <tr>
+                <td>DELL Computers</td>
+                <td align=center>DELL</td>
+                <td align=center>53-59/64</td>
+                <td align=center>59-11/16</td>
+                <td align=center>31-3/8</td>
+                <td align=center>86.97</td>
+            </tr>
+        </table>
+        <p>
+        <table border="0" cellspacing="0" >
+                <tr align=center bgcolor="bbddbb" >
+                   <td colspan=6 >   <I><b>My tech stock picks </b></I></td>
+                </tr>
+                <tr>
+                    <th width=160 align=left>  NAME</th>
+                   <th width=70 > SYMBOL</th>
+                    <th width=80  >CURRENT</th>
+                    <th width=80  >52WK HI</th>
+                    <th width=80  >52WK LO</th>
+                    <th width=100 >P/E RATIO</th>
+                </tr>
+                <tr bgcolor="ddffdd">
+                    <td align=left> Microsoft </td>
+                    <td  align=center> MSFT </td>
+                    <td align=center> 86-3/8</td>
+                    <td align=center> 119-15/16</td>
+                    <td align=center>75-1/2</td>
+                    <td align=center>56.09</td>
+                </tr>
+                <tr>
+                    <td>Cisco Systems</td>
+                    <td align=center>CSCO </td>
+                    <td align=center>72-1/8</td>
+                    <td align=center> 82</td>
+                    <td align=center>24-13/16</td>
+                    <td align=center>400.69</td>
+                </tr>
+                <tr bgcolor="ddffdd"> 
+                    <td > America Online</td>
+                    <td align=center>AOL</td>
+                    <td align=center>63</td>
+                    <td align=center>95-13/16</td>
+                    <td align=center>38-15/32</td>
+                    <td align=center>350.00</td>
+                </tr>
+                <tr>
+                    <td>Qwest Communications</td>
+                    <td align=center> Q</td>
+                    <td align=center>44-7/16</td>
+                    <td align=center>66</td>
+                    <td align=center>25-3/4</td>
+                    <td align=center>74.06</td>
+                </tr>
+                <tr bgcolor="ddffdd">
+                    <td>DELL Computers</td>
+                    <td align=center>DELL</td>
+                    <td align=center>53-59/64</td>
+                    <td align=center>59-11/16</td>
+                    <td align=center>31-3/8</td>
+                    <td align=center>86.97</td>
+                </tr>
+            </p>
+            </table>
+            <p> 
+            <a href="file:///E:/code%20web/BTVN_2_B2_1.html"> <font align=center color="0ae26d"> <i><u> Quay về trang trước</u></i> </font> 
+            </a>
+           
+            </p>
+   </p>
+   
+   <p><h1>Bài 3<h1>
+        
+        <table  border="5" cellpadding="10"cellspacing="10">
+                <tr align="left">
+                        <td >
+                            Rubber
+                        </td>
+                        <td >
+                            baby
+                        </td>
+                        <td > 
+                                She
+                            </td>
+                            <td > 
+                                sells
+                            </td>
+                </tr>
+                <tr>
+                        <td > 
+                            buggy
+                        </td>
+                        <td >
+                            bumbpers
+                        </td>
+                        <td >
+                                sea
+                            </td>
+                            <td >
+                                shells
+                            </td>
+                 </tr>
+                    
+                <tr >
+                    &nbsp;
+                </tr>            
+        </table>
+    </p>
+    <h1> Bài 4</h1>
+    <p>
+            <table border=1 colspacing=0 >
+                    <tr>
+                        <td colspan="4" align=center height=50>Top</td>
+                    </tr>
+                    <tr >
+                        <td rowspan=2 width=100px height=100px align=center> way left</td> <br>
+                        <td width=70px align=center colspan="2" >middle up</td>
+                        
+                        <td  rowspan=2 width=100px align=center>
+                            way right
+                        </td>
+                    </tr>
+                    <td width=100px  colspan="2" rowspan="1" >middle dow</td>
+                    <tr height=50>
+                       
+                    </tr>
+                </table>
+    </p>
+    <h1>Bài 5</h1>
+    <p>
+            <table  border=0 cellspacing=0 cellpadding=10 width=15px bgcolor="7bdebd">
+       
+                    <tr>
+                      
+                        <th> <a href="https://www.google.com/" target="_blank">Home   </a></th>
+                  
+                    </tr>
+               
+                
+                    <tr>
+                        <th> <a href="https://mail.google.com/" target="_blank">Email </a></th>          
+                    </tr>
+                    
+                    <tr>
+                        <th> <a href="https://d1u5p3l4wpay3k.cloudfront.net/zelda_gamepedia_en/thumb/8/8a/LoZ_ST_Link.png/170px-LoZ_ST_Link.png?version=1fb2f2337ba5f1ffde7dd60a5cfa7765" target="_blank">Link </a></th>        
+                    </tr>
+                
+                </table>
+    </p>
+    <h1>Bài 6</h1>
+    <p>
+            <form action="">
+    
+                    <h3>Create a Profile</h3>
+                    First Name:   
+                     <input name="txtfirstname" type="text" id="txtfirstname" size="20"> <br><br>
+                    Last Name:   
+                     <input name="txtlastname" type="text" id="txtlastname" size="20"><br> <br>
+                    
+                    
+                    Date of Birth:   
+                     <select name="month" >
+                         <option value="month"> month </option>
+                         <option value="1"> 1 </option>
+                         <option value="2"> 2 </option>
+                         <option value="3"> 3 </option>
+                         <option value="4"> 4 </option>
+                         <option value="5"> 5 </option>
+                         <option value="6"> 6 </option>
+                         <option value="7"> 7 </option>
+                         <option value="8"> 8 </option>
+                         <option value="9"> 9 </option>
+                         <option value="10"> 10 </option>
+                         <option value="11"> 11 </option>
+                         <option value="12"> 12 </option>
+                     </select>
+                     <select name="day">
+                         <option value="day"> day  </option>
+                         <option value="1">1</option>
+                         <option value="2">2</option>
+                         <option value="3">3</option>
+                         <option value="4">4</option>
+                         <option value="5">5</option>
+                         <option value="6">6</option>
+                         <option value="7">7</option>
+                         <option value="8">8</option>
+                         <option value="9">9</option>
+                         <option value="10">10</option>
+                         <option value="11">11</option>
+                         <option value="12">12</option>
+                         <option value="13">13</option>
+                         <option value="14">14</option>
+                         <option value="15">15</option>
+                         <option value="16">16</option>
+                         <option value="17">17</option>
+                         <option value="18">18</option>
+                         <option value="19">19</option>
+                         <option value="20">20</option>
+                         <option value="21">21</option>
+                         <option value="22">22</option>
+                         <option value="23">23</option>
+                         <option value="24">24</option>
+                         <option value="25">25</option>
+                         <option value="26">26</option>
+                         <option value="27">27</option>
+                         <option value="28">28</option>
+                         <option value="29">29</option>
+                         <option value="30">30</option>
+                         <option value="31">31</option>
+                     </select>
+                     <select name="year" >
+                         <option value="year">year</option>
+                         <option value="1">1980</option>
+                         <option value="2">1981</option>
+                         <option value="3">1982</option>
+                         <option value="4">1983</option>
+                         <option value="5">1984</option>
+                         <option value="6">1985</option>
+                         <option value="7">1986</option>
+                         <option value="8">1987</option>
+                         <option value="9">1988</option>
+                         <option value="10">1989</option>
+                         <option value="11">1990</option>
+                         <option value="12">1991</option>
+                         <option value="13">1992</option>
+                         <option value="14">1993</option>
+                         <option value="15">1994</option>
+                         <option value="16">1995</option>
+                         <option value="17">1996</option>
+                         <option value="18">1997</option>
+                         <option value="19">1998</option>
+                         <option value="20">1999</option>
+                         <option value="21">2000</option>
+                     </select>
+                     
+                     <p>
+                     Gender:
+                        <input name="rad" type="radio" value="1"> male
+                         <input name="rad" type="radio" value="2"> female  
+                 </p>
+                 <br> 
+                 <input type="submit" value="Save">
+                 </form>
+    </p>
+</body>
+</html>
