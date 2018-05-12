@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>BTVN BUỔI 3</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> 
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway"> -->
+<style>
+
+ div.gallery {
+    border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+    background-color: white;
+}
+
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+    ul {
+    margin: 0.5%;
+    padding: 1%;
+    width: 100%;
+    background-color:#d7d2cc;
+    height: 100%;
+}
+    img {
+    max-width: 100%;
+    height: auto;
+    background:#c2b08e;
+}
+item{
+    width: 20%;
+    height: auto;
+}
+    .dropbtn {
+    background-color:#8a491d;
+    color:white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color:#e9c5a0}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #dfdcd7;
+}
+* {
+    box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Create three unequal columns that floats next to each other */
+.column {
+    float: left;
+    padding: 10px;
+}
+
+/* Left and right column */
+.column.side {
+    width: 40%;
+}
+
+/* Middle column */
+.column.middle {
+    width: 60%;
+}
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column.side, .column.middle {
+        width: 100%;
+    }
+}
+
+/* Style the footer */
+.footer {
+    background-color: #ececea;
+    padding: 10px;
+    text-align: right;
+    color: black;
+}
+.abc
+{
+    /* background-color:#b5b9bc; */
+    background-color:#ebe4d8;
+    padding: 20px;
+    text-align: center; 
+    font-family: Arial, Helvetica, sans-serif;
+    size: 20px;
+    color: red;
+}
+.header h1.logo {  margin: 7px 0 0 0; float: left; 
+   }
+</style>
+</head>
+<body style="font-family: Arial, Helvetica, sans-serif">
+         <div class="header">
+                <h1 class="logo" ><a href="https://seeklogo.com/images/C/coffee-shop-logo-D92C9F5E83-seeklogo.com.png" ><font style="color: #4f3332"><B>COFFEE SHOP</B></font></a></h1>
+            </div> 
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+				<!-- Indicators -->
+				<ol class="carousel-indicators">
+				  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				  <li data-target="#myCarousel" data-slide-to="1"></li>
+				  <li data-target="#myCarousel" data-slide-to="2"></li>
+				</ol>
+        <div class="carousel-inner">
+                <div class="item active">
+                     <img src="http://assets.fieldingdesigngroup.com/images/coffeeshop/IMG_0481.jpg"  style="width:100%;">
+                    <div class="carousel-caption">                        
+                    <p style=" size: 30px">   <B>HAVE A NICE DAY ^_^ </B></p>
+                  </div>
+                </div>
+                
+                <div class="item">
+                  <img src="http://assets.fieldingdesigngroup.com/images/coffeeshop/IMG_1607-lf.jpg"  style="width:100%;">
+                  <div class="carousel-caption">
+                    
+                    <p style=" size: 30px"> <b>HAVE A NICE DAY ^_^ </b></p>
+                  </div>
+                </div>
+              
+                <div class="item">
+                        <img src="http://assets.fieldingdesigngroup.com/images/coffeeshop/img_7654.jpg"  style="width:100%;" >
+                        <div class="carousel-caption">
+                    <p style=" size: 30px"><b>HAVE A NICE DAY ^_^ </b></p>
+                  </div>
+                </div>
+              </div>
+              <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+          </div>
+
+
+<div style="font-family:Arial, Helvetica, sans-serif; color:#8a491d" style="width: 20%;">  
+        
+                <ul>
+        <div class="dropdown">
+                <button class="dropbtn">Explore</button>
+                <div class="dropdown-content">
+                    <a href="#">Home</a>
+                    <a href="#">About</a>
+                    <a href="#">What's New</a>
+                    <a href="#">Roasters</a>
+                    <a href="#">Gallery</a>
+                    <a href="#">Events</a>
+                    <a href="#">Careers</a>
+                </div>
+              </div>
+              <div class="dropdown">
+                    <button class="dropbtn">Locations  </button>
+                    <div class="dropdown-content">
+                        <a href="#">Alamo</a>
+                        <a href="#">Lafayette</a>
+                        <a href="#">Walnut Creek</a>
+                    </div>
+                  </div>
+                  <div class="dropdown">
+                        <button class="dropbtn">Connect</button>
+                        <div class="dropdown-content">
+                            <a href="#"> Facebook </a>
+                             <a href="#"> Instagram</a>
+                             <a href="#">Email</a>
+                        </div>
+                      </div>
+                 
+                    </ul>
+
+<div class="row">
+  <div class="column side">
+        <h2 style="padding: 10px">WELCOME TO COFFEE SHOP</h2>
+        <p style="padding: 10px">Coffee Shop is your go-to neighborhood joint, any time, any day. Join us for specialty coffee to pep you up in the morning, organic smoothies, juices, and food to fuel your day, and craft beer, wine, and cocktails to get your night started!</p>
+  </div>
+  
+  <div class="column middle">
+    
+    <h2>Diablo Magazine’s Best Coffeehouse in the East Bay 2016 and 2017</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit..</p>
+    <a href="http://www.diablomag.com/July-2017/2017-Best-of-the-East-Bay-Food/" target="_blank" >  Read The Story </a>
+  </div>
+  <!-- <div class="column side">
+    <h2>Side</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit..</p>
+  </div> -->
+</div>
+
+<div class="abc"> <h1><B>WHAT'S NEW </B></h1></div>
+
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="https://www.instagram.com/p/Bio4lQNDhed/">
+      <img src="http://scontent.cdninstagram.com/vp/f95af5bd799ed82b11ad31b3e148119e/5B8478F5/t51.2885-15/s640x640/sh0.08/e35/32063829_178813192938821_3085738443725078528_n.jpg"  width="300" height="200">
+    </a>
+    <div class="desc">Good morning! Grab your favorite cup </div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+   
+      <img src="https://i.pinimg.com/564x/1c/dc/7d/1cdc7d7e7078a69279784f1857e7d15c.jpg"  width="300" height="200">
+    
+    <div class="desc">  I want a coffee like that
+    </div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="https://www.instagram.com/p/BiZqko-DOGp/">
+      <img src="http://scontent.cdninstagram.com/vp/a7a382dd371a45b3701904d0eaa66b1d/5B84F8DD/t51.2885-15/s640x640/sh0.08/e35/31136781_242384556506366_5516538741822324736_n.jpg" width="600" height="400">
+    </a>
+    <div class="desc">Saturday morning breakfast vibes</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    
+      <img src="https://i.pinimg.com/564x/7e/1e/00/7e1e00d8a7770074d39216c494b65ac5.jpg"  width="600" height="400">
+  
+    <div class="desc"> Relax Sunday morning
+       </div>
+  </div>
+</div>
+
+<div> &nbsp;</div>
+
+<div class="w3-card w3-margin" >
+      
+        <div class="w3-container w3-padding">
+          <h4>Address</h4>
+        </div>
+        
+        <ul class="w3-ul w3-hoverable w3-white">
+          <li class="w3-padding-16">
+            <img src="http://product.hstatic.net/1000075078/product/post_ca74ba3a2a31438b8ff1da59f32a0624_compact.jpg" alt="Image" class="w3-left w3-margin-right" style="width:90px">
+            <span class="w3-large">COFFEE SHOP</span><br>
+        
+             <span> <B>14B1 Ngô Tất Tố - Quận Bình Thạnh</B></span> 
+          </li>
+          <li class="w3-padding-16">
+            <img src="http://product.hstatic.net/1000075078/product/img_0273_compact.jpg" alt="Image" class="w3-left w3-margin-right" style="width:90px">
+            <span class="w3-large">COFFEE SHOP</span><br>
+            <span><b> AEON Mall Bình Tân - Quầy-33-Tầng-3-Aeon-Mall-Bình-Tân</b></span>
+          </li> 
+          <li class="w3-padding-16">
+            <img src="http://sw001.hstatic.net/7/0d94f0543a197c/img_7605_compact.jpg" alt="Image" class="w3-left w3-margin-right" style="width:90px">
+            <span class="w3-large">COFFEE SHOP</span><br>
+            <span><b>403A-405A Lê Đại Hành - Quận 11, TP Hồ Chí Minh</b></span>
+          </li>   
+          <li class="w3-padding-16 w3-hide-medium w3-hide-small">
+            <img src="http://sw001.hstatic.net/6/08f4f81e12b61b/img_6955_compact.jpg" alt="Image" class="w3-left w3-margin-right" style="width:90px">
+            <span class="w3-large">COFFEE SHOP</span><br>
+            <span><b>49 Lý Thường Kiệt - Quận 11, Tp.Hồ Chí Minh</b></span>
+          </li>  
+        </ul>
+    </div>
+    </div>
+   
+<div class="footer">
+  <p>Created by <a href="https://www.facebook.com/tan.nt9710" target="_blank">Nguyễn Thị Tân</a></p>
+</div> 
+
+</body>
+</html>
