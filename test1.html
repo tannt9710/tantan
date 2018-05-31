@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="_css/javajam.css">
+<style>
+body {font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+}
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    border: 0px solid #ccc;
+    background-color: #8a4c2a;
+    
+}
+.row img{
+    display: inline-block;
+    max-width: 50%;
+    border: 0px solid #ccc;;
+}
+/* Style the buttons inside the tab */
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 27px;
+    color: white;
+    
+}
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #b1611b;
+}
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: black;
+    
+}
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    border: 0px solid #ccc;
+    border-top: none;
+    width: 100%;
+    padding: 5px;
+    /* background-position: 50%; */
+}
+div {
+    display: block;
+}
+.footer {
+    background: black;
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 10px
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.column {
+    float: left;
+    width: 50%;
+    padding: 0px;
+}
+</style>
+</head>
+<body>
+
+<h1>MENU</h1>
+
+<div class="tab">`
+  <button class="tablinks" onclick="openCity(event, 'ESPRESSO & COFFEE')">ESPRESSO & COFFEE</button>
+  <button class="tablinks" onclick="openCity(event, 'ICE BLENDED COFFEE')">ICE BLENDED COFFEE</button>
+  <button class="tablinks" onclick="openCity(event,'SMOOTHIES' )">SMOOTHIES</button>
+  <button class="tablinks" onclick="openCity(event, 'SPECIAL TEA')">SPECIAL TEA</button>
+
+</div>
+<div id="ESPRESSO & COFFEE" class="tabcontent">
+    <div class="row">
+        <div class="column">
+  <h3>ESPRESSO & COFFEE</h3>
+  <p>NẾU BẠN ĐANG TÌM KIẾM MỘT THỨC UỐNG GIÚP BẠN TỈNH TÁO VÀ SẢNG KHOÁI, BẠN SẼ KHÔNG THẤT VỌNG VỚI CÁC MÓN CÀ PHÊ ĐÁ XAY. CHỈ CẦN LỰA CHỌN HƯƠNG VỊ ƯA THÍCH KÈM CÀ PHÊ CỦA BẠN TRONG THỰC ĐƠN CỦA CHÚNG TÔI.
+
+</p>
+
+    <table >
+            <tr>
+                <th id="description" >ESPRESSO & COFFEE</th>
+                <th id="price">SMALL</th>
+                <th id="price">MEDIUM</th>
+            </tr>
+           
+            <tr>
+                <td headers="description">Espresso, nước nóng</td>
+                <td headers="item">35.000 VNĐ</td>
+                <td headers="item">45.000 VNĐ</td>
+            </tr>
+            <tr>
+                <td headers="description">Espresso, sữa tươi, bọt sữa </td>
+                <td headers="item">55.000 VNĐ</td>
+                <td headers="item">65.000 VNĐ</td>
+            </tr>
+            <tr>
+                <td headers="description">Espresso, sữa tươi, caramel</td>
+                <td headers="item">35.000 VNĐ</td>
+                <td headers="item">45.000 VNĐ</td>
+            </tr>
+            <tr>
+                <td headers="description">Espresso sữa nóng/ Espresso sữa đá</td>
+                <td headers="item">45.000 VNĐ</td>
+                <td headers="item">55.000 VNĐ</td>
+            </tr>
+            <tr>
+                <td headers="description">Espresso, sôcôla, sữa tươi, bọt sữa</td>
+                <td headers="item">49.000 VNĐ</td>
+                <td headers="item">59.000 VNĐ</td>
+            </tr>
+            <tr>
+                <td headers="description">Cà phê đá / Cà phê sữa đá</td>
+                <td headers="item">29.000 VNĐ</td>
+                <td headers="item">39.000 VNĐ</td>
+            </tr>   
+          </table>          
+    </div>
+    <img src="http://hstatic.net/078/1000075078/2/2016/3-8/coffee_131c6488-0505-425c-6762-5dcb1304087a_master.png" style="width:100%">    
+    </div>
+</div>
+<div id="ICE BLENDED COFFEE" class="tabcontent">
+        <div class="row">
+            <div class="column">
+      <h3>ICE BLENDED COFFEE</h3>
+      <p>NẾU BẠN ĐANG TÌM KIẾM MỘT THỨC UỐNG GIÚP BẠN TỈNH TÁO VÀ SẢNG KHOÁI, BẠN SẼ KHÔNG THẤT VỌNG VỚI CÁC MÓN CÀ PHÊ ĐÁ XAY. CHỈ CẦN LỰA CHỌN HƯƠNG VỊ ƯA THÍCH KÈM CÀ PHÊ CỦA BẠN TRONG THỰC ĐƠN CỦA CHÚNG TÔI.</p>
+    
+        <table >
+                <tr>
+                    <th id="description" >ICE BLENDED COFFEE</th>
+                    
+                    <th id="price">MEDIUM</th>
+                </tr>              
+                <tr>
+                    <td headers="description">Espresso, sữa tươi, caramal, kem tươi</td>
+                    <td headers="item">45.000 VNĐ</td>
+                </tr>
+                <tr>
+                    <td headers="description">Bánh cookie, sữa tươi, kem tươi </td>            
+                    <td headers="item">65.000 VNĐ</td>
+                </tr>
+                <tr>
+                    <td headers="description">Espresso, sữa tươi, hazelnut, kem tươi</td>                  
+                    <td headers="item">45.000 VNĐ</td>
+                </tr>
+                <tr>
+                    <td headers="description">Espresso, chocolate, hạnh nhân, bọt sữa</td>                    
+                    <td headers="item">55.000 VNĐ</td>
+                </tr>
+                <tr>
+                    <td headers="description">Espresso, sữa tươi, sôcôla, kem tươi</td>                 
+                    <td headers="item">59.000 VNĐ</td>
+                </tr>
+                <tr>
+                    <td headers="description">Espresso, chocolate, hạnh nhân</td>                   
+                    <td headers="item">39.000 VNĐ</td>
+                </tr>     
+              </table>
+              <div></div>
+              <h3>CHOCOLATE</h3>
+              
+              <p>KHÔNG CÓ KHOẢNG THỜI GIAN NÀO QUÝ GIÁ NHƯ KHI Ở BÊN CẠNH BẠN BÈ, TRỪ KHI BẠN CÓ MỘT LY CHOCOLATE. VÀ NIỀM HẠNH PHÚC CỦA CHÚNG TÔI LÀ PHỤC VỤ BẠN NHỮNG KHOẢNG THỜI GIAN QUÝ GIÁ NHƯ THẾ.</p>
+              
+              <table>
+                <tr>
+                    <td headers="description">Sôcôla, sữa tươi, kem tươi</td>
+                    <td headers="item">39.000 VNĐ</td>
+                    <td headers="item">49.000 VNĐ</td>
+                </tr>
+                <tr>
+                    <td headers="description">Sôcôla, hạnh nhân, kem tươi, kẹo marshmallow</td>
+                    <td headers="item">49.000 VNĐ</td>
+                    <td headers="item">59.000 VNĐ</td>
+                </tr>
+            </table>
+     
+                
+        </div>
+        <img src="http://hstatic.net/078/1000075078/2/2016/3-8/iced-blended_70455e21-9606-4d33-7dcc-fd9e7ab75b43_master.png" style="width:100%">    
+        </div>
+    </div>
+
+
+
+<div id="SMOOTHIES" class="tabcontent">
+    <div class="row">
+        <div class="column">
+  <h3>SMOOTHIES</h3>
+  <p>ĐÓ LÀ SỨC SỐNG, SỰ TƯƠI MÁT VÀ NHỮNG MÀU SẮC. ĐƯỢC TẠO RA BỞI SỰ PHA TRỘN GIỮA SỮA CHUA, TRÁI CÂY & SỮA TƯƠI, SMOOTHIES SẼ LÀ SỰ LỰA CHỌN HOÀN HẢO ĐỂ THƯ GIÃN VÀ BỔ SUNG SỨC SỐNG CHO LÀN DA. HÃY LỰA CHỌN CHO NGÀY CỦA BẠN SỰ TƯƠI MỚI VÀ ĐẦY NĂNG LƯỢNG!</p> 
+  <table >
+    <tr>
+        <th id="description" >SMOOTHIES</th>
+        <th id="price">SMALL</th>
+        <th id="price">MEDIUM</th>
+    </tr>
+   
+    <tr>
+        <td headers="description">Mứt việt quất, sữa chua, sữa tươi</td>
+        <td headers="item">45.000 VNĐ</td>
+        <td headers="item">55.000 VNĐ</td>
+    </tr>
+    <tr>
+        <td headers="description">Mứt Việt Quốc, soda </td>
+        <td headers="item">35.000 VNĐ</td>
+        <td headers="item">45.000 VNĐ</td>
+    </tr>
+    <tr>
+        <td headers="description">Syrup táo xanh, syrup mojito, táo xanh, 7up</td>
+        <td headers="item">45.000 VNĐ</td>
+        <td headers="item">55.000 VNĐ</td>
+    </tr>
+    <tr>
+        <td headers="description">Mứt cam-xoài, sữa chua, bánh cookie</td>
+        <td headers="item">59.000 VNĐ</td>
+        <td headers="item">69.000 VNĐ</td>
+    </tr>
+    <tr>
+        <td headers="description">Chanh tươi, sả, lá bạc hà, soda</td>
+        <td headers="item">49.000 VNĐ</td>
+        <td headers="item">59.000 VNĐ</td>
+    </tr>
+    <tr>
+        <td headers="description">Chanh dây, sả, lá bạc hà, soda</td>
+        <td headers="item">29.000 VNĐ</td>
+        <td headers="item">39.000 VNĐ</td>
+    </tr>
+    <tr>
+        <td headers="description">Dâu rừng tươi, soda</td>
+        <td headers="item">39.000 VNĐ</td>
+        <td headers="item">49.000 VNĐ</td>
+    </tr>
+    <tr>
+        <td headers="description">Mứt dâu-ổi, sữa chua, bánh cookie</td>
+        <td headers="item">49.000 VNĐ</td>
+        <td headers="item">59.000 VNĐ</td>
+    </tr>
+  </table>
+</div>
+<img src="http://rewards.thecoffeehouse.com/wp-content/uploads/Copy-of-IMG_1236.jpg" style="width:100%">    
+</div>
+</div>
+
+<div id="SPECIAL TEA" class="tabcontent" >
+    <div class="row">
+        <div class="column">
+  <h3>SPECIAL TEA</h3>
+  <p>BẤT CỨ THỜI ĐIỂM NÀO CŨNG LÀ THỜI GIAN ĐỂ UỐNG MỘT LY TRÀ. BẠN CHỌN LY TRÀ NÀO CHO HÔM NAY?</p>
+  <table >
+    <tr>
+        <th id="description" >SPECIAL TEA</th>
+        <th id="price">SMALL</th>
+        <th id="price">MEDIUM</th>
+    </tr>
+   
+    <tr>
+        <td headers="description">Trà đen, váng sữa</td>
+        <td headers="item">45.000 VNĐ</td>
+        <td headers="item">55.000 VNĐ</td>
+    </tr>
+    <tr>
+        <td headers="description">Trà thảo mộc hương: chanh/bạc hà/ nho đen</td>
+        <td headers="item">35.000 VNĐ</td>
+    </tr>
+    <tr>
+        <td headers="description">Trà đen nóng</td>
+        <td headers="item">45.000 VNĐ</td>
+    </tr>
+    <tr>
+        <td headers="description">Trà xanh, sữa tươi, kem tươi, đá xay</td>
+        <td headers="item">49.000 VNĐ</td>
+        <td headers="item">59.000 VNĐ</td>
+    </tr>
+    <tr>
+        <td headers="description">Trà xanh, sữa tươi (nóng/ đá)</td>
+        <td headers="item">55.000 VNĐ</td>
+    </tr>
+    <tr>
+        <td headers="description">Trà đào, cam, sả</td>
+        <td headers="item">42.000 VNĐ</td>
+        <td headers="item">55.000 VNĐ</td>
+    </tr>
+    <tr>
+        <td headers="description">Trà đen, váng sữa, raspberry</td>
+        <td headers="item">39.000 VNĐ</td>
+        <td headers="item">49.000 VNĐ</td>
+    </tr>
+  </table>
+</div>
+<img src="http://hstatic.net/078/1000075078/2/2016/3-8/specialtea_master.png" style="width:100%">    
+</div>
+</div>
+
+<script>
+function openCity(evt, cityName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+</script>
+<div></div>
+    <div class="footer">
+        <img src="http://theme.hstatic.net/1000075078/1000297410/14/logo.png?v=39" alt="" width="20%">
+					<p></p><p>223 Võ Văn Tần, Quận 3, HCM<br> Hotline : 028 71 087 088 <br> Giao hàng miễn phí : 1800 6936</p><p></p>
+    </div>
+</body>
+</html> 
